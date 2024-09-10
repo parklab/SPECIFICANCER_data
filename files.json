@@ -1,0 +1,14 @@
+[
+    {
+        "label": "File 1",
+        "s3_url": "https://aveit.s3.amazonaws.com/misc/specificancer/test1.bw"
+    },
+    {
+        "label": "File 2",
+        "s3_url": "https://aveit.s3.amazonaws.com/misc/specificancer/test2.bw"
+    },
+    {
+        "label": "File 3",
+        "s3_url": "https://aveit.s3.amazonaws.com/misc/specificancer/test3.bw"
+    }
+]
