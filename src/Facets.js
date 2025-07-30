@@ -8,7 +8,7 @@ import Select from "react-select";
 import axios from "axios";
 
 const FILES_LIST_PATH =
-  "https://aveit.s3.amazonaws.com/misc/specificancer/files.json";
+  "https://cruk-specificancer.s3.amazonaws.com/cruk_data.json";
 
 const DEFAULT_DATASETS = [{ value: "Loading...", label: "Loading..." }];
 
@@ -57,10 +57,11 @@ const getBigwigTrack = (label, url) => {
       trackBorderWidth: 0,
       trackBorderColor: "black",
       labelTextOpacity: 1.0,
+      labelBackgroundOpacity: 0.8,
       name: label,
     },
     width: 20,
-    height: 50,
+    height: 60,
   };
 };
 

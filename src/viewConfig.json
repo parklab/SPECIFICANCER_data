@@ -10,28 +10,27 @@
       {
         "uid": "aa",
         "initialXDomain": [
-          250000000,
-          350000000
+          100000000,
+          3000000000
         ],
         "autocompleteSource": "/api/v1/suggest/?d=OHJakQICQD6gTD7skx4EWA&",
         "genomePositionSearchBox": {
           "autocompleteServer": "//higlass.io/api/v1",
-          "autocompleteId": "OHJakQICQD6gTD7skx4EWA",
+          "autocompleteId": "P0PLbQMwTYGy-5uPIQid7A",
           "chromInfoServer": "//higlass.io/api/v1",
-          "chromInfoId": "hg19",
+          "chromInfoId": "hg38",
           "visible": true
         },
-        "chromInfoPath": "//s3.amazonaws.com/pkerp/data/hg19/chromSizes.tsv",
+        "chromInfoPath": "https://cgap-higlass.s3.amazonaws.com/sequence/hg38.mod.chrom.sizes",
         "tracks": {
           "top": [
             {
-              "type": "horizontal-gene-annotations",
-              "height": 60,
-              "tilesetUid": "OHJakQICQD6gTD7skx4EWA",
+              "filetype": "beddb",
               "server": "//higlass.io/api/v1",
-              "uid": "OHJakQICQD6gTD7skx4EWA",
+              "tilesetUid": "P0PLbQMwTYGy-5uPIQid7A",
+              "uid": "TAH0j3v5QTiUbmd0l2sgXw",
+              "type": "gene-annotations",
               "options": {
-                "name": "Gene Annotations (hg19)",
                 "fontSize": 10,
                 "labelColor": "black",
                 "labelBackgroundColor": "#ffffff",
@@ -49,15 +48,18 @@
                 "mousePositionColor": "#000000",
                 "geneAnnotationHeight": 16,
                 "geneLabelPosition": "outside",
-                "geneStrandSpacing": 4
+                "geneStrandSpacing": 4,
+                "name": "Gene Annotations (hg38)"
               },
-              "width": 843
+              "width": 1188,
+              "height": 90
             },
             {
-              "chromInfoPath": "https://s3.amazonaws.com/pkerp/data/hg19/chromSizes.tsv",
-              "type": "horizontal-chromosome-labels",
-              "height": 30,
-              "uid": "X4e_1DKiQHmyghDa6lLMVA",
+              "filetype": "chromsizes-tsv",
+              "server": "//higlass.io/api/v1",
+              "tilesetUid": "NyITQvZsS_mOFNlz5C2LJg",
+              "uid": "KuYNGV4QRISWSYQa9PKRTw",
+              "type": "chromosome-labels",
               "options": {
                 "color": "#808080",
                 "stroke": "#ffffff",
@@ -67,7 +69,8 @@
                 "mousePositionColor": "#000000",
                 "reverseOrientation": false
               },
-              "width": 843
+              "width": 20,
+              "height": 40
             }
           ],
           "left": [],

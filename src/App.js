@@ -7,19 +7,7 @@ import { HiglassBrowser } from "./HiglassBrowser";
 function App() {
   return (
     <div className="App">
-      {/* <div className="container">
-        <div className="row">
-          <div className="col">
-            <h1 className="my-5">Scanner output visualization</h1>
-            <Uploader></Uploader>
-          </div>
-        </div>
-      </div> */}
-
-      {/* <div id="overlay">
-        <div id="overlay-text"><i className="fas fa fa-spin fa-spinner mr-1"></i>Loading data</div>
-      </div> */}
-
+      
       <div className="container mt-5">
         <h2 id="variant-view" className="text-center">
           SPECIFICANCER data visualization
